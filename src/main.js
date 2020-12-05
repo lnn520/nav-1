@@ -4,7 +4,9 @@ const x = localStorage.getItem('x')//读取本地hashMap
 const xObject =JSON.parse(x)//变为对象
 const hashMap = xObject || [
     { logo:'A',url:'https://www.acfun.cn'},
-    {logo:'b',url:'https://www.bilibili.com'}
+    {logo:'b',url:'https://www.bilibili.com'},
+    {logo:'c',url:'https://www.csdn.net'},
+    {logo:'c',url:'https://www.csdn.net'},
 ];
 
 const simplifyUrl =(url)=>{
